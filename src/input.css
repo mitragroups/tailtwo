@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  input,
+  select {
+    @apply w-full focus:outline-none border border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-100 rounded-lg p-3 transition duration-200;
+  }
+  button {
+    @apply w-full bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-lg text-center transition duration-200;
+  }
+  label {
+    @apply block mb-1 text-slate-500 text-sm font-medium;
+  }
+}
