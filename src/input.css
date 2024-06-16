@@ -13,4 +13,7 @@
   label {
     @apply block mb-1 text-slate-500 text-sm font-medium;
   }
+  h1 {
+    @apply text-3xl font-bold;
+  }
 }
